@@ -1,0 +1,61 @@
+/* ------------------------- Portfolio ------------------------- */
+
+section.portfolio {
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+}
+
+section.portfolio div.container div.row {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+section.portfolio div.container div.row div div.card {
+    border-color: #fff;
+    border-radius: 0;
+}
+
+section.portfolio div.container div.row div div.card div.card-body {
+    color: #fff;
+}
+
+/* ------------------------- Footer ------------------------- */
+
+footer.footer {
+    /* background-color: #808080; */
+    /* position: static; */
+    top: auto;
+    bottom: auto;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* ------------------------- Responsive ------------------------- */
+
+@media screen and (width: 1024px) and (min-height: 1366px) {
+    footer.footer {
+        position: fixed !important;
+        top: auto !important;
+        bottom: 0 !important;
+    }
+}
+
+@media screen {
+    section.portfolio div.container div.row div.col-lg-4 {
+        margin: 10px 0;
+    }
+    
+    section.portfolio div.container div.row div.col-md-12 {
+        margin: 10px 0;
+    }
+    
+    section.portfolio div.container div.row div.col-sm-12 {
+        margin: 10px 0;
+    }
+    
+    section.portfolio div.container div.row div.col-xs-12 {
+        margin: 10px 0;
+    }
+}

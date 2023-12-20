@@ -1,0 +1,434 @@
+/* ------------------------- Defaults ------------------------- */
+
+/* ------------------------- About ------------------------- */
+
+section.about {
+    display: block;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+section.about div.container img {
+    display: block;
+    margin: auto;
+    padding: 10px;
+    height: 400px;
+    width: 400px;
+}
+
+section.about div.container p {
+    padding: 10px;
+    text-align: center;
+}
+
+/* ------------------------- Responsive ------------------------- */
+
+@media screen and (max-width: 1281px) {
+    section.about {
+        display: block;
+        margin: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    section.about div.container h1 {
+        font-size: 50px !important;
+    }
+    
+    section.about div.container img {
+        display: block;
+        margin: auto;
+        padding: 10px;
+        height: 300px;
+        width: 300px;
+    }
+
+    section.about div.container p {
+        font-size: 25px !important;
+    }
+}
+
+@media screen and (max-width: 1030px) and (max-height: 1370px) {
+    nav.navbar div.container a.navbar-brand {
+        font-size: 35px !important;
+    }
+
+    nav.navbar div.container div.navbar-collapse ul li {
+        font-size: 25px !important;
+    }
+
+    section.about div.container h1 {
+        font-size: 30px !important;
+    }
+
+    section.about div.container img {
+        display: block;
+        margin: auto;
+        padding: 10px;
+        height: 250px;
+        width: 250px;
+    }
+
+    section.about div.container p {
+        font-size: 20px !important;
+    }
+}
+
+@media screen and (max-width: 912px) {
+    nav.navbar div.container a.navbar-brand {
+        font-size: 40px !important;
+    }
+
+    nav.navbar div.container div.navbar-collapse ul li {
+        font-size: 35px !important;
+    }
+
+    section.about div.container h1 {
+        font-size: 50px !important;
+    }
+
+    section.about div.container img {
+        display: block;
+        margin: auto;
+        padding: 10px;
+        height: 300px;
+        width: 300px;
+    }
+
+    section.about div.container p {
+        font-size: 35px !important;
+    }
+}
+
+@media screen and (max-width: 821px) {
+    nav.navbar div.container a.navbar-brand {
+        font-size: 35px !important;
+    }
+
+    nav.navbar div.container div.navbar-collapse ul li {
+        font-size: 30px !important;
+    }
+
+    section.about div.container h1 {
+        font-size: 50px !important;
+    }
+
+    section.about div.container img {
+        display: block;
+        margin: auto;
+        padding: 10px;
+        height: 300px;
+        width: 300px;
+    }
+
+    section.about div.container p {
+        font-size: 25px !important;
+    }
+}
+
+@media screen and (max-width: 770px) { 
+    nav.navbar div.container a.navbar-brand {
+        font-size: 20px !important;
+    }
+
+    nav.navbar div.container div.navbar-collapse ul li {
+        font-size: 15px !important;
+    }
+
+    section.about div.container h1 {
+        font-size: 40px !important;
+    }
+
+    section.about div.container img {
+        display: block;
+        margin: auto;
+        padding: 10px;
+        height: 150px;
+        width: 150px;
+    }
+
+    section.about div.container p {
+        font-size: 15px !important;
+    }
+}
+
+@media screen and (max-width: 541px) {
+    nav.navbar div.container div.navbar-collapse ul li {
+        font-size: 15px !important;
+    }
+
+    section.about div.container h1 {
+        font-size: 20px !important;
+    }
+
+    section.about div.container img {
+        display: block;
+        margin: auto;
+        padding: 10px;
+        height: 200px;
+        width: 200px;
+    }
+
+    section.about div.container p {
+        font-size: 15px !important;
+    }
+}
+
+@media screen and (max-width: 435px) {
+
+    nav.navbar div.container a.navbar-brand {
+        font-size: 25px !important;
+    }
+
+    nav.navbar div.container div.navbar-collapse ul li {
+        font-size: 20px !important;
+    }
+
+    section.about div.container h1 {
+        font-size: 30px !important;
+    }
+
+    section.about div.container img {
+        display: block;
+        margin: auto;
+        padding: 10px;
+        height: 250px;
+        width: 250px;
+    }
+
+    section.about div.container p {
+        font-size: 20px !important;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    nav.navbar div.container a.navbar-brand {
+        font-size: 15px !important;
+    }
+
+    nav.navbar div.container div.navbar-collapse ul li {
+        font-size: 12px !important;
+    }
+
+    section.about div.container h1 {
+        font-size: 30px !important;
+    }
+
+    section.about div.container img {
+        display: block;
+        margin: auto;
+        padding: 10px;
+        height: 150px;
+        width: 150px;
+    }
+
+    section.about div.container p {
+        font-size: 15px !important;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    nav.navbar div.container a.navbar-brand {
+        font-size: 20px !important;
+    }
+
+    nav.navbar div.container div.navbar-collapse ul li {
+        font-size: 15px !important;
+    }
+
+    section.about div.container h1 {
+        font-size: 30px !important;
+    }
+
+    section.about div.container img {
+        display: block;
+        margin: auto;
+        padding: 10px;
+        height: 300px;
+        width: 300px;
+    }
+
+    section.about div.container p {
+        font-size: 20px !important;
+    }
+}
+
+@media screen and (max-width: 413px) {
+    nav.navbar div.container a.navbar-brand {
+        font-size: 25px !important;
+    }
+
+    nav.navbar div.container div.navbar-collapse ul li {
+        font-size: 20px !important;
+    }
+
+    section.about div.container h1 {
+        font-size: 30px !important;
+    }
+
+    section.about div.container img {
+        display: block;
+        margin: auto;
+        padding: 10px;
+        height: 250px;
+        width: 250px;
+    }
+
+    section.about div.container p {
+        font-size: 20px !important;
+    }
+}
+
+@media screen and (max-width: 393px) {
+    nav.navbar div.container a.navbar-brand {
+        font-size: 22px !important;
+    }
+
+    nav.navbar div.container div.navbar-collapse ul li {
+        font-size: 20px !important;
+    }
+
+    section.about div.container h1 {
+        font-size: 30px !important;
+    }
+
+    section.about div.container img {
+        display: block;
+        margin: auto;
+        padding: 10px;
+        height: 250px;
+        width: 250px;
+    }
+
+    section.about div.container p {
+        font-size: 15px !important;
+    }
+}
+
+@media screen and (max-width: 390px) {
+
+    nav.navbar div.container div.navbar-collapse ul li {
+        font-size: 20px !important;
+    }
+
+    section.about div.container h1 {
+        font-size: 30px !important;
+    }
+
+    section.about div.container img {
+        display: block;
+        margin: auto;
+        padding: 10px;
+        height: 100px;
+        width: 100px;
+    }
+
+    section.about div.container p {
+        font-size: 10px !important;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    nav.navbar div.container a.navbar-brand {
+        font-size: 15px !important;
+    }
+
+    nav.navbar div.container div.navbar-collapse ul li {
+        font-size: 12px !important;
+    }
+
+    section.about div.container h1 {
+        font-size: 20px !important;
+    }
+
+    section.about div.container img {
+        display: block;
+        margin: auto;
+        padding: 10px;
+        height: 200px;
+        width: 200px;
+    }
+
+    section.about div.container p {
+        font-size: 12px !important;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    nav.navbar div.container a.navbar-brand {
+        font-size: 20px !important;
+    }
+
+    nav.navbar div.container div.navbar-collapse ul li {
+        font-size: 15px !important;
+    }
+
+    section.about div.container h1 {
+        font-size: 30px !important;
+    }
+
+    section.about div.container img {
+        display: block;
+        margin: auto;
+        padding: 10px;
+        height: 200px;
+        width: 200px;
+    }
+
+    section.about div.contaner p {
+        font-size: 25px !important;
+    }
+}
+
+@media screen and (max-width: 325px) {
+    nav.navbar div.container a.navbar-brand {
+        font-size: 15px !important;
+    }
+
+    nav.navbar div.container div.navbar-collapse ul li {
+        font-size: 12px !important;
+    }
+
+    section.about div.container h1 {
+        font-size: 20px !important;
+    }
+
+    section.about div.container img {
+        display: block;
+        margin: auto;
+        padding: 10px;
+        height: 200px;
+        width: 200px;
+    }
+
+    section.about div.container p {
+        font-size: 12px !important;
+    }
+}
+
+@media screen and (max-width: 281px) {
+    nav.navbar div.container div.navbar-collapse ul li {
+        font-size: 10px !important;
+    }
+
+    section.about div.container h1 {
+        font-size: 20px !important;
+    }
+
+    section.about div.container img {
+        display: block;
+        margin: auto;
+        padding: 10px;
+        height: 150px;
+        width: 150px;
+    }
+
+    section.about div.container p {
+        font-size: 10px !important;
+    }
+}
